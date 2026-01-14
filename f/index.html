@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>softwarové licence</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="rubik-FONT">Softwarové licence</h1>
+        <!--navigace-->
+        <div class="topnav" id="myTopnav">
+            <a href="../pdf/index.html">Úvod</a>
+            <a href="../a/index.html">Programové a datové soubory</a>
+            <a href="../b/index.html">Operační systémy</a>
+            <a href="../c/index.html">Ovladače, firmware a utility</a>
+            <a href="../d/index.html">Aplikační software</a>
+            <a href="../e/index.html">Instalace programů</a>
+            <a href="#" class="active">Softwarové licence</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h2 id="licence-typy">Licence a jejich typy</h2>
+        Uživatel nemůže koupit program jako celek se všemi právy k němu, ale může získat pouze licenci
+        (<em>oprávnění</em>) k
+        jeho užívání. Z toho plyne, že nesmí žádným způsobem upravovat toto dílo, pokud k tomu autor nedá svůj výslovný
+        souhlas. Licence je většinou nepřenosná, a proto není možné tuto licenci někomu dalšímu prodat nebo darovat.
+        <h3>Multilicence</h3>Při koupi programu běžně získává uživatel oprávnění provozovat program na jednom počítači.
+        V
+        případech hromadného využití programu (<em>firmy, školy ...</em>) stačí koupit jedno balení programu a k němu
+        vícenásobnou licenci pro další počítače, která bývá cenově výhodnější variantou.
+        Komerční software. Často se používá rovněž označení proprietární software nebo také software s uzavřeným kódem
+        (<em>closed source</em>). Jeho autor upravuje licencí (<em>EULA - End-User-License-Agreement</em>) či jiným
+        způsobem
+        možnosti jeho používání. K takovému software nejsou zpravidla k dispozici volně zdrojové kódy či v nich nelze
+        svobodně dělat úpravy a výsledné dílo distribuovat. Je šířen za úplatu a bývá omezen počet instalací,
+        přenositelnost licence či právo modifikace produktu.
+        OEM (<em>Original Equipment Manufacturer = původní výrobce zařízení</em>). Touto zkratkou se označují výrobky,
+        které jsou
+        určeny k zabudování jako komponenty (<em>součásti</em>) do jiných zařízení. Jedná se například o programy, které
+        jsou
+        nabízeny pouze současně s hardware za sníženou cenu.
+        Demoverze a zkušební verze programů. Demoverze jsou „ostré“ programy, které mají zablokované některé funkce,
+        často ukládání souboru na disk a tisk. Dodávají se zdarma, nebo za malý poplatek. V demoverzi je možné vyzkoušet
+        funkčnost programu před jeho koupí. Zkušební (<em>trial</em>) verze většinou umožňují plnohodnotnou práci včetně
+        ukládání
+        i tisku, ale jen po určitou dobu. Po uplynutí této doby program nelze spustit ani znovu nainstalovat.
+        Shareware. S programem může uživatel pracovat a po určité době je povinnen zaslat jeho autorovi uvedený
+        poplatek. Poté smí program legálně užívat a autor k němu často pošle stručný manuál, případně i novou verzi
+        programu.
+        Freeware. Doslova lze název této skupiny programů přeložit jako volné zboží. Program je možné používat a
+        rozšiřovat zdarma, požaduje se pouze dodržování autorských práv. Nesmí se zahrnovat do komerčně šířených
+        programů a nesmí být změněn. Někdy je jako freeware šířen i velmi kvalitní program a po jeho hromadném rozšíření
+        se z něj může stát program šířený komerčně.
+
+        <h2 id="srovnani-licenci">Srovnání komerčních a svobodných licencí</h2>
+        <table>
+            <thead>
+                <th class="bgRed fgWhite">Komerční software (<em>closed source</em>)</th>
+                <th class="bgGreen fgWhite">Svobodný software (<em>open source</em>)</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="bgRed">
+                        <h4>Charakteristické rysy</h4>
+                        <ul>
+                            <li>Uzavřený zdrojový kód (<em>Closed source</em>)</li>
+                            <li>Omezení licencí - zákaz úprav a šíření</li>
+                            <li>Bývá zpoplatněn, jen někdy zdarma (<em>freeware</em>)</li>
+                            <li>Omezený počet instalací a přenositelnost licence</li>
+                        </ul>
+                    </td>
+                    <td class="bgGreen">
+                        <h4>Charakteristické rysy</h4>
+                        <ul>
+                            <li>Otevřený zdrojový kód (<em>Open source</em>)</li>
+                            <li>Možnost úprav a šíření</li>
+                            <li>Často zdarma nebo, financován komunitou či firmami</li>
+                            <li>Velká komunita vývojářů a uživatelů</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bgRed">
+                        <h4>Typy licencí</h4>
+                        <ul>
+                            <li>EULA</li>
+                            <li>OEM</li>
+                            <li>Trial verze</li>
+                            <li>freeware</li>
+                            <li>shareware</li>
+                        </ul>
+                    </td>
+                    <td class="bgGreen">
+                        <h4>Typy licencí</h4>
+                        <ul>
+                            <li>GPL (<em>General Public License</em>)</li>
+                            <li>MIT (<em>Massachusetts Institute of Technology License</em>)</li>
+                            <li>Apache License</li>
+                            <li>BSD License</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bgRed">
+                        <h4>Příklady programů</h4>
+                        <ul>
+                            <li>MS Windows</li>
+                            <li>MS Office</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Google Chrome (<em>freeware</em>)</li>
+                            <li>WinZip (<em>shareware</em>)</li>
+                        </ul>
+                    </td>
+                    <td class="bgGreen">
+                        <h4>Příklady programů</h4>
+                        <ul>
+                            <li>Linux (<em>GNU</em>)</li>
+                            <li>LibreOffice (<em>The Document Foundation</em>)</li>
+                            <li>GIMP (<em>GNU GPL</em>)</li>
+                            <li>Mozilla Firefox (<em>MPL</em>)</li>
+                            <li>VLC(<em>GNU GPL</em>)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <div style="text-align: center;">
+            <a href="https://www.sspu-opava.cz/" target="_blank">
+                <img src="https://www.sspu-opava.cz/static/img/core-img/skola-logo.png" alt="Logo školy">
+            </a>
+        </div>
+        <div style="text-align: center;">&copy; Copyright 2026, Michal Janešík, IT1</div>
+    </footer>
+    <script src="../JS/main.js"></script>
+</body>
+
+</html>

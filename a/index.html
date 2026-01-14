@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programové a datové soubory</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="rubik-FONT">Programové a datové soubory</h1>
+        <div class="topnav" id="myTopnav">
+            <a href="../pdf/index.html">Úvod</a>
+            <a href="#" class="active">Programové a datové soubory</a>
+            <a href="../b/index.html">Operační systémy</a>
+            <a href="../c/index.html">Ovladače, firmware a utility</a>
+            <a href="../d/index.html">Aplikační software</a>
+            <a href="../e/index.html">Instalace programů</a>
+            <a href="../f/index.html">Softwarové licence</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <h2 id="soubory">Soubory</h2>
+        <p>
+            Soubor (<em>file</em>) je množina souvisejících dat
+            uložených na diskové jednotce. Název souboru je obvykle tvořen jménem
+            (<em>ve Windows až 254 znaků</em>) a příponou, která naznačuje typ souboru. K
+            dalším vlastnostem souboru patří jeho velikost, autor (,<em>vlastník</em>), datum
+            vytvoření, datum změny, atributy, přístupová práva apod.
+        </p>
+        <h2 id="system-adresaru">Systém adresářů</h2>
+        <p>
+            K přehlednější práci se soubory slouží systém adresářů či složek
+            (<em>directories, folders</em>). Adresáře tvoří na disku typicky hierarchickou
+            strukturu (<em>tree - strom</em>); základem je tzv. kořenový adresář (<em>root</em>)
+            označený symbolem „/“ (<em><a href="https://cs.wikipedia.org/wiki/Unix" target="_blank">Unix</a>,
+                Linux</em>), nebo
+            „\“ (<em>Windows</em>). Každý adresář může obsahovat soubory i
+            podadresáře (<em>subdirectories</em>).
+        </p>
+        <p>
+            Cesta (<em>path</em>) vyjadřuje umístění souboru vždy směrem od nejvyššího
+            adresáře: <code>C:\XAMPP\mysql\bin\mysql.exe</code>. Pro operace se
+            soubory využíváme někdy zástupné znaky (<em>wildcards</em>):
+        </p>
+        <ul>
+            <li>
+                symbol <mark><code>*</code></mark> nahrazuje v názvu libovolný počet
+                znaků (<em>např. *.*</em>);
+            </li>
+            <li>
+                symbol <code>?</code> nahrazuje jeden libovolný znak (<em>např. s?s.txt</em>).
+            </li>
+        </ul>
+        <figure>
+            <img src="../img/cmd.png" alt="Wildcards v příkazovém řádku">
+            <figcaption>Ukázka použití wildcards v příkazovém řádku.</figcaption>
+        </figure>
+    </main>
+    <footer>
+        <div style="text-align: center;">
+            <a href="https://www.sspu-opava.cz/" target="_blank">
+                <img src="https://www.sspu-opava.cz/static/img/core-img/skola-logo.png" alt="Logo školy">
+            </a>
+        </div>
+        <div style="text-align: center;">&copy; Copyright 2026, Michal Janešík, IT1</div>
+    </footer>
+</body>
+
+</html>
