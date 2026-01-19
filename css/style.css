@@ -1,25 +1,10 @@
+/* CSS from commit ff1ba14526464e38791a7d2eebc9814dd14f8bee */
+/* Restored CSS goes here */
+
 @media screen and (max-width: 600px) {
-  header {
-    padding-top: 10px;
-    margin: 10px;
-  }
-  
-  main {
-    margin: 10px;
-    padding: 15px;
-  }
-  
-  h1 {
-    font-size: 2em;
-  }
-  
   img {
     max-width: 100%;
     height: auto;
-  }
-  
-  figure {
-    margin: 10px 0;
   }
   
   figure img {
