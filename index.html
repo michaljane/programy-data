@@ -1,34 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programy Data</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programy a data</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;  
+      justify-content: center;
+      text-align: left;
+    }
+
+    .container div {
+      background-color: rgba(100, 100, 100, 0.7);
+      width: 29%;
+      margin: 10px;
+      padding: 10px;
+
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        flex-direction: column;
+      }
+      
+      .container div {
+        width: 95%;
+        margin: 10px auto;
+        padding: 15px;
+      }
+      
+      a{
+        color: black;
+      }
+    }
+
+  </style>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to Programy Data</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <div class="div1">Content 1</div>
-        <div class="div2">Content 2</div>
-        <div class="div3">Content 3</div>
-        <div class="div4">Content 4</div>
-        <div class="div5">Content 5</div>
-        <div class="div6">Content 6</div>
+  <header>
+    <h1 class ="rubik-FONT">Programy a data - úvodní stránka</h1>
+    <div class="topnav" id="myTopnav">
+      <a href="#" class="active">Úvod</a>
+      <a href="./a/index.html">Programové a datové soubory</a>
+      <a href="./b/index.html">Operační systémy</a>
+      <a href="./c/index.html">Ovladače, firmware a utility</a>
+      <a href="./d/index.html">Aplikační software</a>
+      <a href="./e/index.html">Instalace programů</a>
+      <a href="./f/index.html">Softwarové licence</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <footer>
-        <p>&copy; 2026 Programy Data. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+  </header>
+  <main>
+    <div class="container">
+      <div>
+        <a href="./a/index.html">
+          <h3>Programové a datové soubory</h3>
+        </a>
+        <ul>
+          <li><a href="./a/index.html#soubory">soubory</a></li>
+          <li><a href="./a/index.html#system-adresaru">systém adresářů</a></li>  
+        </ul>
+      </div>
+      <div>
+        <a href="./b/index.html">
+          <h3>Operační systémy</h3>
+        </a>
+        <ul>
+          <li><a href="./b/index.html#ranna-doba">ranná doba</a></li>
+          <li><a href="./b/index.html#operacni-systemy">operační systémy</a></li>
+          <li><a href="./b/index.html#aplikacni-rozhrani">aplikační rozhraní</a></li>
+          <li><a href="./b/index.html#soucasnost-os">současnost OS </a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="./c/index.html">
+          <h3>Ovladače, firmware a utility</h3>
+        </a>
+        <ul>
+          <li><a href="./c/index.html#ovladace">Ovladače</a></li>
+          <li><a href="./c/index.html#firmware">Firmware</a></li>
+          <li><a href="./c/index.html#utility">Utility</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="./d/index.html">
+          <h3>Aplikační software</h3>
+        </a>
+        <ul>
+          <li><a href="./d/index.html#zaklady">základní skupiny aplikací</a></li>
+          <li><a href="./d/index.html#graficke-aplikace">grafické aplikace</a></li>
+          <li><a href="./d/index.html#informacni">informační a databázové systémy</a></li>
+          <li><a href="./d/index.html#malware">malware a antivirové programy</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="./e/index.html">
+          <h3>Instalace programů</h3>
+        </a>
+        <ul>
+          <li><a href="./e/index.html#instalace">Instalace programu</a></li>
+          <li><a href="./e/index.html#lokalizace">Lokalizace</a></li>
+          <li><a href="./e/index.html#verze">Verze programů</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="./f/index.html">
+          <h3>Softwarové licence</h3>
+        </a>
+        <ul>
+          <li><a href="./f/index.html#licence-typy">licenčí typy</a></li>
+          <li><a href="./f/index.html#srovnani-licenci">srovnání licencí</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div style="text-align: center;">
+      <a href="https://www.sspu-opava.cz/" target="_blank">
+        <img src="https://www.sspu-opava.cz/static/img/core-img/skola-logo.png" alt="Logo školy">
+      </a>
+    </div>
+    <div style="text-align: center;">&copy; Copyright 2026, Michal Janešík, IT1</div>
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
+
+
 </html>
