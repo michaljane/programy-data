@@ -7,8 +7,9 @@ header {
 }
 
 .instalace {
-    width: 300px;  /* konkrétní šířka */
+    width: 50%;  /* například 50% šířky rodiče */
     height: auto;
+    max-width: 400px;  /* maximální šířka 400px */
 }
 
 h1,
