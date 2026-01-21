@@ -6,9 +6,9 @@ header {
     margin: 20px auto;
 }
 
-.instalace{
-height:auto;
-    width:300px;
+.instalace {
+    width: 300px;  /* konkrétní šířka */
+    height: auto;
 }
 
 h1,
